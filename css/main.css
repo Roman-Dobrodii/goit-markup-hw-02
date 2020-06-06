@@ -21,7 +21,6 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 .ghost {
@@ -48,6 +47,9 @@ a {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent);
+}
+.site-nav .link.current {
   color: var(--accent);
 }
 
@@ -94,7 +96,13 @@ team-title {
 .team-text {
   color: var(--title-text-color);
 }
-
+.social-link {
+  color: var(--title-text-color);
+}
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent);
+}
 /* Clients */
 .clients-title {
   color: var(--primary-text-color);
@@ -104,7 +112,7 @@ team-title {
 .adress-title {
   color: var(--title-white-color);
 }
-.conact-footer {
+.contact {
   color: var(--footer-text-color);
 }
 .text-footer {
@@ -114,3 +122,5 @@ team-title {
   background-color: var(--accent);
   color: var(--title-white-color);
 }
+
+/* Portfolio styles */
