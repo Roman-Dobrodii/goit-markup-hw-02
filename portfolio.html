@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -31,16 +35,24 @@
 
     <!-- Projects -->
     <main>
-      <section>
+      <section class="projects">
         <h1 class="ghost">Наши проекты</h1>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filter">
+          <li><button type="button" class="press">Все</button></li>
+          <li>
+            <button type="button" class="press">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="press">Приложения</button>
+          </li>
+          <li>
+            <button type="button" class="press">Маркетинг</button>
+          </li>
+          <li>
+            <button type="button" class="press">Дизайн</button>
+          </li>
         </ul>
-        <ul>
+        <ul class="projects-list">
           <li>
             <a href=""
               ><img
@@ -48,9 +60,9 @@
                 alt="Изображение старницы веб-сайта"
                 width="370"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-              <p>
+              <h2 class="projects-title">Технокряк</h2>
+              <p class="projects-text">Веб-сайт</p>
+              <p class="projects-slogan">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
