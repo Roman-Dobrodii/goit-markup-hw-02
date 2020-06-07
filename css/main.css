@@ -74,6 +74,9 @@ a {
 }
 
 /* Hero */
+.hero {
+  background-color: var(--title-text-color);
+}
 .hero-title {
   color: var(--title-white-color);
   font-weight: 900;
@@ -106,6 +109,9 @@ a {
 }
 
 /* Work */
+.work {
+  background-color: var(--title-text-color);
+}
 .work-title {
   color: var(--primary-text-color);
   font-weight: 700;
