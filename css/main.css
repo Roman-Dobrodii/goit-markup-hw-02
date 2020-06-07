@@ -39,6 +39,9 @@ a {
 .logo-blue {
   color: var(--accent);
 }
+.logo-white {
+  color: var(--title-white-color);
+}
 
 /* Site nav */
 .site-nav .link {
@@ -119,6 +122,9 @@ a {
 }
 
 /* Team */
+.team {
+  background-color: var(--secondary-bg-color);
+}
 .team-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -154,6 +160,9 @@ a {
 }
 
 /* Footer */
+footer {
+  background-color: var(--footer-bg-color);
+}
 .adress-title {
   color: var(--title-white-color);
   font-size: 14px;
